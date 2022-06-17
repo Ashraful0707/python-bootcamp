@@ -11,3 +11,10 @@ def two_digit_sub(two_digit_number):
         two_digit_number = two_digit_number//10
     return sum
 print(two_digit_sub(int(two_digit_number)))
+
+def two_digit_sub(two_digit_number):
+    first_number = two_digit_number[0]
+    second_number = two_digit_number[1]
+    total_sum = int(first_number)+int(second_number)
+    return total_sum
+print(two_digit_sub(two_digit_number))
