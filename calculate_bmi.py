@@ -7,4 +7,4 @@ weight = input("enter your weight in kg: ")
 def bmi(height, weight):
     BMI = weight/(height**2) 
     return BMI
-print(round(bmi(float(height), float(weight))))
+print(round(bmi(float(height), int(weight))))
